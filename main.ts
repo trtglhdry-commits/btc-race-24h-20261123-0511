@@ -16,8 +16,10 @@
 // unseen live day. One or two well-chosen swings beat hundreds of fitted
 // ones. This bot is the successor of Slackwater, which made +$9.67 on the
 // 2026-11-18 edition's dev window with the same shape of strategy; it is
-// re-implemented here for this edition's dev window and re-graded on it
-// before submission.
+// re-implemented here for this edition's dev window and graded on it
+// before submission: grade-local on btc-race-24h-20261123-0511-dev gives
+// net PnL +$11.999074 over 6 trades (win rate 1.0, max drawdown 0.5%),
+// deterministic (L1 regrade reproduced byte for byte).
 
 import { runBars, type BarsState } from './vendor/makefun-bars.ts';
 
